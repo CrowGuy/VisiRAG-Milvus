@@ -1,0 +1,20 @@
+# Milvus & Infrastructure
+pymilvus>=2.5.4
+
+# Vision & PDF Processing
+pdf2image
+Pillow
+
+# Machine Learning & Embedding (Sprint 2)
+# colpali-engine requires torch and transformers
+colpali_engine @ git+https://github.com/illuin-tech/colpali.git@9b8362af1
+torch
+transformers
+accelerate
+bitsandbytes
+einops
+
+# UI & Utilities
+gradio
+python-dotenv
+numpy
